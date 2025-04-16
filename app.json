@@ -1,0 +1,31 @@
+{
+  "name": "hiru md botname",
+  "description": "Javascript WhatsApp bot made by YourName hiru md bot",
+  "logo": "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22IMG-20250415-WA0070.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-04-15T16%3A31%3A43.406Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2Fc0bbf72ddbf942d1%2FIMG-20250415-WA0070.jpg%3FExpires%3D1839429103%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DGxxL3zJqvuEqGCbnPWwzsJ3-AUUGiIsXqBF61oJag7rJ8HUjJe~MTp54Yh7hpm6q0A9uqgkEJI8iMYABV48b7e5OoCXtCR6VGUZtUuFvvlF6hFkx3uY~~rFvD9HOlaFeXQ~qdHmuwbfotn2k4zjnPxA1VRAQlWL7kCfdijej1B1AmyMdSZqamo24j2ajujVEEJ9lJmYY4WZO8ePcOohlTjhyscXDxfTNLh~6jy8r2-ZoNohPRO7Xbs1uO1KCiPqPlS0oAhtWbh6AO-BFI0dDoml2h2qkl41y4DZUwjznyJP-1Z8CzkA5QvaAKYiU9Ox~6TKKvp4rXkx7GMyQjPPIsw__%22%7D",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
